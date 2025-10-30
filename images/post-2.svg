@@ -1,0 +1,9 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#fff8e1"/>
+  <rect x="20" y="20" width="760" height="360" rx="10" fill="#fff3cd" stroke="#ffc107" stroke-width="2"/>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#856404">高效学习技巧</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#856404">提升学习效率的实用方法</text>
+  <polygon points="400,80 450,180 350,180" fill="#ffc107" opacity="0.5"/>
+  <rect x="300" y="250" width="200" height="80" rx="5" fill="#ffc107" opacity="0.3"/>
+  <text x="400" y="300" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" fill="#856404">专注·实践·复习</text>
+</svg>

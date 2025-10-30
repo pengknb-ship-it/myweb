@@ -1,0 +1,13 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f8f5ff"/>
+  <rect x="20" y="20" width="760" height="360" rx="10" fill="#f3e5f5" stroke="#9c27b0" stroke-width="2"/>
+  <text x="400" y="150" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#4a148c">工作与生活平衡</text>
+  <text x="400" y="220" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" fill="#4a148c">程序员的健康生活方式</text>
+  <!-- 平衡图标 -->
+  <line x1="100" y1="300" x2="700" y2="300" stroke="#9c27b0" stroke-width="2"/>
+  <rect x="200" y="260" width="100" height="80" rx="5" fill="#9c27b0" opacity="0.7"/>
+  <text x="250" y="310" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">工作</text>
+  <rect x="500" y="260" width="100" height="80" rx="5" fill="#9c27b0" opacity="0.7"/>
+  <text x="550" y="310" font-family="Arial, sans-serif" font-size="18" text-anchor="middle" fill="white">生活</text>
+  <circle cx="400" cy="300" r="20" fill="#9c27b0"/>
+</svg>
