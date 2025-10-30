@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">我的博客</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="contact.html">联系</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 英雄区域 -->
+    <section class="hero">
+        <div class="container">
+            <h1>欢迎来到我的博客</h1>
+            <p>分享技术、生活和思考的个人空间</p>
+            <a href="blog.html" class="btn">阅读文章</a>
+        </div>
+    </section>
+
+    <!-- 特色文章 -->
+    <section class="featured-posts">
+        <div class="container">
+            <h2 class="section-title">特色文章</h2>
+            <div class="post-grid">
+                <article class="post-card">
+                    <img src="images/post-1.jpg" alt="文章封面" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-06-15</span>
+                            <span class="post-category">技术</span>
+                        </div>
+                        <h3 class="post-title">学习React的最佳实践</h3>
+                        <p class="post-excerpt">探索React开发中的最佳实践，提高代码质量和开发效率...</p>
+                        <a href="posts/post-1.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="images/post-2.jpg" alt="文章封面" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-06-01</span>
+                            <span class="post-category">生活</span>
+                        </div>
+                        <h3 class="post-title">如何保持高效学习</h3>
+                        <p class="post-excerpt">分享一些实用的学习技巧，帮助你更高效地掌握新知识...</p>
+                        <a href="posts/post-2.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                <article class="post-card">
+                    <img src="images/post-3.jpg" alt="文章封面" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-05-20</span>
+                            <span class="post-category">思考</span>
+                        </div>
+                        <h3 class="post-title">程序员的职业规划</h3>
+                        <p class="post-excerpt">探讨程序员的职业发展路径，如何在技术领域持续成长...</p>
+                        <a href="posts/post-3.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于博主 -->
+    <section class="about-me">
+        <div class="container">
+            <div class="about-content">
+                <img src="images/avatar.jpg" alt="博主头像" class="avatar">
+                <div class="about-text">
+                    <h2>关于博主</h2>
+                    <p>你好，我是一名热爱编程和分享的开发者。这个博客记录了我的技术探索、生活感悟和学习心得。希望通过分享，能够帮助到同样热爱技术的你。</p>
+                    <a href="about.html" class="btn">了解更多</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 标签云 -->
+    <section class="tags">
+        <div class="container">
+            <h2 class="section-title">热门标签</h2>
+            <div class="tag-cloud">
+                <a href="#" class="tag">JavaScript</a>
+                <a href="#" class="tag">React</a>
+                <a href="#" class="tag">CSS</a>
+                <a href="#" class="tag">HTML</a>
+                <a href="#" class="tag">前端开发</a>
+                <a href="#" class="tag">学习方法</a>
+                <a href="#" class="tag">职业发展</a>
+                <a href="#" class="tag">编程思想</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>我的博客</h3>
+                    <p>分享技术、生活和思考</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 我的博客. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

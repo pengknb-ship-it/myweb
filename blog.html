@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>博客列表 - 我的博客</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo">我的博客</a>
+                <ul class="nav-links">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="blog.html">博客</a></li>
+                    <li><a href="about.html">关于</a></li>
+                    <li><a href="contact.html">联系</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 博客页面内容 -->
+    <section class="blog-page">
+        <div class="container">
+            <h1 class="section-title">博客文章</h1>
+            
+            <!-- 文章列表 -->
+            <div class="post-grid">
+                <!-- 文章1 -->
+                <article class="post-card">
+                    <img src="images/post-1.jpg" alt="学习React的最佳实践" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-06-15</span>
+                            <span class="post-category">技术</span>
+                        </div>
+                        <h3 class="post-title">学习React的最佳实践</h3>
+                        <p class="post-excerpt">探索React开发中的最佳实践，提高代码质量和开发效率。本文将介绍组件设计、状态管理、性能优化等方面的经验总结...</p>
+                        <a href="posts/post-1.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 文章2 -->
+                <article class="post-card">
+                    <img src="images/post-2.jpg" alt="如何保持高效学习" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-06-01</span>
+                            <span class="post-category">生活</span>
+                        </div>
+                        <h3 class="post-title">如何保持高效学习</h3>
+                        <p class="post-excerpt">分享一些实用的学习技巧，帮助你更高效地掌握新知识。包括时间管理、记忆方法、学习环境搭建等方面的建议...</p>
+                        <a href="posts/post-2.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 文章3 -->
+                <article class="post-card">
+                    <img src="images/post-3.jpg" alt="程序员的职业规划" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-05-20</span>
+                            <span class="post-category">思考</span>
+                        </div>
+                        <h3 class="post-title">程序员的职业规划</h3>
+                        <p class="post-excerpt">探讨程序员的职业发展路径，如何在技术领域持续成长。从初级开发者到技术专家或技术管理者的不同选择...</p>
+                        <a href="posts/post-3.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 文章4 -->
+                <article class="post-card">
+                    <img src="images/post-4.jpg" alt="现代CSS布局技巧" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-05-10</span>
+                            <span class="post-category">技术</span>
+                        </div>
+                        <h3 class="post-title">现代CSS布局技巧</h3>
+                        <p class="post-excerpt">深入了解Flexbox、Grid等现代CSS布局技术，告别传统的float布局。通过实际案例掌握响应式设计的精髓...</p>
+                        <a href="posts/post-4.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 文章5 -->
+                <article class="post-card">
+                    <img src="images/post-5.jpg" alt="JavaScript异步编程详解" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-04-25</span>
+                            <span class="post-category">技术</span>
+                        </div>
+                        <h3 class="post-title">JavaScript异步编程详解</h3>
+                        <p class="post-excerpt">从回调函数到Promise，再到async/await，全面解析JavaScript异步编程的演进历程和最佳实践...</p>
+                        <a href="posts/post-5.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+                
+                <!-- 文章6 -->
+                <article class="post-card">
+                    <img src="images/post-6.jpg" alt="工作与生活的平衡" class="post-img">
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <span class="post-date">2023-04-15</span>
+                            <span class="post-category">生活</span>
+                        </div>
+                        <h3 class="post-title">工作与生活的平衡</h3>
+                        <p class="post-excerpt">作为程序员，如何在忙碌的工作中找到生活的平衡点？分享一些时间管理和压力调节的方法...</p>
+                        <a href="posts/post-6.html" class="post-link">阅读更多</a>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- 分页 -->
+            <div class="pagination">
+                <a href="#" class="pagination-link prev"><i class="fas fa-arrow-left"></i> 上一页</a>
+                <a href="#" class="pagination-link active">1</a>
+                <a href="#" class="pagination-link">2</a>
+                <a href="#" class="pagination-link">3</a>
+                <span class="pagination-ellipsis">...</span>
+                <a href="#" class="pagination-link">10</a>
+                <a href="#" class="pagination-link next">下一页 <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>我的博客</h3>
+                    <p>分享技术、生活和思考</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-weibo"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-weixin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 我的博客. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
